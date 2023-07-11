@@ -8,3 +8,354 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+body {
+    background-color: #540B51;
+    width: 767px;
+    margin-left: 0;
+
+}
+
+nav {
+    
+    background-color: #540B51;
+}
+
+ #navimg {
+    position: relative;
+    width: 150px;
+
+}
+#navegacion {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 10px;
+    margin-bottom:  10px;
+    padding-bottom: 10px;
+    background-color: #540B51;
+
+    
+} 
+nav div button {
+
+    background-color: #540B51;
+    border: 0;
+}
+
+header {
+    
+    background-color: #540B51;
+}
+
+#great {
+    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 10px;
+
+
+}
+
+header div p {
+    color: white;
+}
+
+header div p span {
+    color: orange;
+}
+
+#subtitulo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+#signUp {
+ margin: 5px;
+    display: flex;
+    justify-content:flex-start;
+}
+
+#signUp button {
+    width: 100%;
+    height: 60px;
+    margin-right: 5px;
+    background-color: white;
+    border-radius: 10px;
+    
+}
+
+#signUp button span {
+    color: #540B51;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#signGoog {
+    display: flex;
+    justify-content:flex-start;
+    margin: 5px;
+}
+
+#signGoog button {
+    display: flex;
+ justify-content: center;
+ text-align: center;
+ align-items: center;
+    width: 100%;
+    height: 60px;
+    margin-right: 5px;
+    background-color: #4285F4;
+    border-radius: 10px;
+    
+    
+}
+
+#signGoog button img {
+position: relative;
+right: 190px;
+ width: 40px;
+ background-color: white;
+ 
+}
+#signGoog button span {
+
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+
+#imgCentral img {
+    display: flex;
+    align-items: center;
+    width: 140%;
+}
+
+#textUnico {
+    position: relative;
+    font-size: 25px;
+    text-align: center;
+    background-color: #F3EAE2;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+
+main {
+    background-color: #F3EAE2;
+    margin-left: 0px;
+}
+
+#logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    gap:30px;
+    margin-bottom: 20px;
+    }
+
+#logos img{
+    height: 50px;
+}
+
+#imagenConnected img {
+
+    display: flex;
+    align-items: center;
+    width: 95%;
+    padding-top: 50px;
+}
+
+h2 {
+    text-align: left;
+    margin-left: 10px;
+    font-size: 60px;
+}
+
+p {
+    text-align: left;
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+#imagenFlexibility img {
+    display: flex;
+    justify-content: flex-end;
+    width: 95%;
+    padding-top: 50px;
+}
+
+.enlaces span{
+
+    color:#4285F4;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+#imagenSpeed  img {
+
+    display: flex;
+    justify-content: flex-end;
+    width: 95%;
+    padding-top: 50px;
+}
+
+#teamsUsers {
+ padding-top: 20px;
+    background-color: white;
+}
+
+#teamsUsers h3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: black;
+    font-size: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 10px;
+
+}
+
+#teamsUsers p {
+
+    text-align: center;
+    margin: 10px
+}
+
+#botonesBotom .but1 {
+    align-items: center;
+    width: 95%;
+    height: 60px;
+    margin-right: 5px;
+    margin-left: 10px;
+    background-color:#540B51;
+    border-radius: 5px;
+    
+}
+
+#botonesBotom .but1 span {
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+
+#botonesBotom .but2 {
+    align-items: center;
+    width: 95%;
+    height: 60px;
+    margin-right: 5px;
+    margin-left: 10px;
+    background-color:white;
+    border-radius: 5px;
+}
+
+#botonesBotom .but2 span {
+    color: #540B51;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+#teamsUsers li {
+    list-style-type:none;
+    padding-left: 0px;
+
+}
+#teamsUsers ul {
+
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#teamsUsers ul span {
+
+    font-weight: bold;
+    color: #540B51;
+    font-size: 80px;
+}
+
+#teamsUsers ul p {
+
+    font-weight: bold;
+    
+    
+}
+
+#ultima {
+    background-color: #540B51;
+    
+}
+
+
+#ultima h3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+    font-size: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 25px;
+    padding-top: 10px;
+
+}
+
+#ultima .but1 {
+    align-items: center;
+    width: 95%;
+    height: 60px;
+    margin-right: 5px;
+    margin-left: 10px;
+    background-color:#540B51;
+    border-radius: 5px;
+    border-color: white;
+}
+
+#ultima .but1 span {
+    color: white;
+    font-size: 30px;
+    text-transform:uppercase;
+}
+
+
+#ultima .but2 {
+    align-items: center;
+    width: 95%;
+    height: 60px;
+    margin-right: 5px;
+    margin-left: 10px;
+    background-color:white;
+    border-radius: 5px;
+    gap: 10px
+}
+
+#ultima .but2 span {
+    color: #540B51;
+    font-size: 30px;
+    text-transform: uppercase;
+    
+}
+
+footer {
+    background-color: white;
+}

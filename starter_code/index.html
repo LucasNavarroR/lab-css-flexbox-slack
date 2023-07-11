@@ -19,9 +19,9 @@
 <body>
   <nav>
     <div>
-      <img src="./images/slack-logo.png" alt="Slack logo" />
+      <img id="navimg" src="./images/slack-logo.png" alt="Slack logo" />
 
-      <ul>
+      <!-- <ul>
         <li>
           <a href="#">Product</a>
         </li>
@@ -34,10 +34,10 @@
         <li>
           <a href="#">Pricing</a>
         </li>
-      </ul>
+      </ul> -->
     </div>
 
-    <div>
+    <div id="navegacion">
       <button>
         <img src="./images/icon-search.png" alt="Search icon">
       </button>
@@ -45,45 +45,47 @@
       <button>
         <img src="./images/icon-menu.png" alt="Menu icon">
       </button>
-
-      <ul hidden>
-        <li>
-          <a href="#">Sign in</a>
-        </li>
-        <li>
-          <a href="#">Try for free</a>
-        </li>
-      </ul>
     </div>
   </nav>
 
   <header>
+
     <div>
+      <section id="great">
       <h1>Great teamwork starts with a digital HQ</h1>
+      </section>
 
-      <p>Slack is free to try for as long as you'd like.</p>
-
+<section id="subtitulo">
+      <p><span>Slack is free to try</span> for as long as you'd like.</p>
+    </section>
       <div>
-        <button>Sign up with email</button>
+        <section id="signUp">
+        <button ><span>Sign up with email</span></button>
+      </section>
 
+        
+      <section id="signGoog">
         <button>
           <img src="./images/logo-google.png" alt="Google logo" />
           <span>Sign up with Google</span>
         </button>
+      </section>
       </div>
 
     </div>
 
     <div>
+      <section id="imgCentral">
       <img src="./images/hero-product-ui.png" alt="Slack app screenshot" />
     </div>
+  </section>
   </header>
 
   <main>
     <section>
-      <p>Trusted by companies all over the world</p>
+      <p id="textUnico">Trusted by companies all over the world</p>
 
-      <div>
+      <div id="logos">
         <img src="./images/logo-airbnb.png" alt="Airbnb logo" />
         <img src="./images/logo-nasa.png" alt="NASA logo" />
         <img src="./images/logo-uber.png" alt="Uber logo" />
@@ -95,7 +97,7 @@
     </section>
 
     <section>
-      <div>
+      <div id="imagenConnected">
         <img src="./images/connectedness-mobile.png" alt="connectedness" />
       </div>
 
@@ -107,9 +109,14 @@
           channels, it's easier to connect across departments, offices, time zones and even other companies.
         </p>
 
-        <a href="#">
-          <span>Learn more about channels</span>
+        <a class="enlaces" href="#">
+          <span >Learn more about channels</span>
         </a>
+      </div>
+    </section>
+    <section>
+      <div id="imagenFlexibility">
+        <img src="./images/flexibility-mobile.png" alt="flexibility" />
       </div>
     </section>
 
@@ -122,18 +129,16 @@
           audio and video clips, or hop on a huddle to talk things out live.
         </p>
 
-        <a href="#">
-          <span>Learn more about flexible communication</span>
+        <a class="enlaces" href="#">
+          <span>Learn more about flexible communication </span>
         </a>
       </div>
 
-      <div>
-        <img src="./images/flexibility-mobile.png" alt="flexibility" />
-      </div>
+      
     </section>
 
     <section>
-      <div>
+      <div id="imagenSpeed">
         <img src="./images/speed-mobile.png" alt="speed" />
       </div>
 
@@ -144,20 +149,20 @@
           tools like Workflow Builder, you can automate away routine tasks.
         </p>
 
-        <a href="#">
+        <a class="enlaces" href="#">
           <span>Learn more about the Slack platform</span>
         </a>
       </div>
     </section>
 
 
-    <section>
+    <section id="teamsUsers">
       <h3>Teams large and small rely on Slack</h3>
       <p>Slack securely scales up to support collaboration at the world’s biggest companies.</p>
 
-      <div>
-        <button>Meet Slack for enterprise</button>
-        <button>Talk to sales</button>
+      <div id="botonesBotom">
+        <button class="but1"><span>Meet Slack for enterprise</span></button>
+        <button class="but2"><span>Talk to sales</span></button>
       </div>
 
       <ul>
@@ -187,11 +192,11 @@
       </ul>
     </section>
 
-    <section>
+    <section id="ultima">
       <h3>Welcome to your new digital HQ</h3>
 
-      <button>Try for free</button>
-      <button>Talk to sales</button>
+      <button class="but1"><span>Talk To sales</span></button>
+      <button class="but2"><span>try for free</span></button>
     </section>
 
   </main>
