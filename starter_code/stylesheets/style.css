@@ -10,13 +10,14 @@ footer links grey: #454245
 */
 body {
     background-color: #540B51;
-    width: 767px;
+    max-width: 767px;
     margin-left: 0;
 
 }
 
 nav {
-    
+    display: flex;
+    justify-content: space-between;
     background-color: #540B51;
 }
 
@@ -123,19 +124,26 @@ header div p span {
 
 #signGoog button img {
 position: relative;
-right: 190px;
+
+right: 220px;
  width: 40px;
  background-color: white;
  
 }
 #signGoog button span {
-
+position: relative;
+right:8px;
     color: white;
     font-size: 20px;
     font-weight: bold;
     text-transform: uppercase;
+    
 }
 
+#cajadelogos {
+
+    padding-top: 25px;
+}
 
 
 #imgCentral img {
@@ -151,6 +159,7 @@ right: 190px;
     background-color: #F3EAE2;
     text-transform: uppercase;
     font-weight: bold;
+    
     
 }
 
