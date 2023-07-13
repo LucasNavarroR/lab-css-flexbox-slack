@@ -45,6 +45,8 @@ nav div button {
 }
 
 header {
+    display: flex;
+    flex-direction: column;
     
     background-color: #540B51;
 }
