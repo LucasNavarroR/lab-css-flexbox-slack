@@ -8,12 +8,19 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+
+
 body {
     background-color: #540B51;
-    max-width: 767px;
-    margin-left: 0;
+    max-width: 768px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 
 }
+
+
 
 nav {
     display: flex;
@@ -22,51 +29,30 @@ nav {
 }
 
  #navimg {
-    position: relative;
     width: 150px;
 
 }
-#navegacion {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    padding-right: 10px;
-    margin-bottom:  10px;
-    padding-bottom: 10px;
-    background-color: #540B51;
+#navegacion {} 
 
-    
-} 
 nav div button {
-
-    background-color: #540B51;
+    background:none;
     border: 0;
 }
 
 header {
     display: flex;
-    flex-direction: column;
-    
-    background-color: #540B51;
-}
-
-#great {
-    
-    display: flex;
     justify-content: center;
-    text-align: center;
-    align-items: center;
-    color: white;
-    font-size: 40px;
-    margin-left: 50px;
-    margin-right: 50px;
-    padding-top: 10px;
-
-
+    flex-direction: column;
+   background:none;
+   text-align: center;
+   font-size: 40px;
+   color: white;
 }
+
+
 
 header div p {
+    text-align: center;
     color: white;
 }
 
@@ -74,13 +60,7 @@ header div p span {
     color: orange;
 }
 
-#subtitulo {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    font-size: 25px;
-}
+
 
 #signUp {
  margin: 5px;
