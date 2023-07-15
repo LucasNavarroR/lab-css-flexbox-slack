@@ -20,6 +20,10 @@ body {
 
 }
 
+img {
+    max-width: 100vw;
+   }
+
 
 
 nav {
@@ -28,14 +32,15 @@ nav {
     background-color: #540B51;
 }
 
- #navimg {
+#navimg {
     width: 150px;
 
 }
-#navegacion {} 
+
+#navegacion {}
 
 nav div button {
-    background:none;
+    background: none;
     border: 0;
 }
 
@@ -43,9 +48,9 @@ header {
     display: flex;
     justify-content: center;
     flex-direction: column;
-   background:none;
-   text-align: center;
-   font-size: 40px;
+    background: none;
+    text-align: center;
+    font-size: 40px;
    color: white;
 }
 
@@ -62,64 +67,47 @@ header div p span {
 
 
 
-#signUp {
- margin: 5px;
-    display: flex;
-    justify-content:flex-start;
-}
-
-#signUp button {
-    width: 100%;
+.botonesSignUp button {
+    width: 95%;
     height: 60px;
-    margin-right: 5px;
-    background-color: white;
-    border-radius: 10px;
-    
+    border-radius: 8px;
+    margin: 5px;
+    border: 0;
 }
 
-#signUp button span {
+#signUpEmail span {
     color: #540B51;
     font-size: 20px;
     font-weight: bold;
     text-transform: uppercase;
 }
 
-#signGoog {
-    display: flex;
-    justify-content:flex-start;
-    margin: 5px;
-}
-
-#signGoog button {
-    display: flex;
- justify-content: center;
- text-align: center;
- align-items: center;
-    width: 100%;
-    height: 60px;
-    margin-right: 5px;
+#signUpGoogle {
     background-color: #4285F4;
-    border-radius: 10px;
+   }
+  
+   #signUpGoogle span {
     
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+   }
+   #signUpGoogle img {
     
+    width: 20px;
+    background-color: white;
+
 }
 
-#signGoog button img {
-position: relative;
-
-right: 220px;
- width: 40px;
- background-color: white;
- 
-}
 #signGoog button span {
-position: relative;
-right:8px;
+    position: relative;
+    right: 8px;
     color: white;
     font-size: 20px;
     font-weight: bold;
     text-transform: uppercase;
-    
+
 }
 
 #cajadelogos {
@@ -141,8 +129,8 @@ right:8px;
     background-color: #F3EAE2;
     text-transform: uppercase;
     font-weight: bold;
-    
-    
+
+
 }
 
 main {
@@ -153,12 +141,12 @@ main {
 #logos {
     display: flex;
     flex-wrap: wrap;
-    justify-content:center;
-    gap:30px;
+    justify-content: center;
+    gap: 30px;
     margin-bottom: 20px;
-    }
+}
 
-#logos img{
+#logos img {
     height: 50px;
 }
 
@@ -189,16 +177,16 @@ p {
     padding-top: 50px;
 }
 
-.enlaces span{
+.enlaces span {
 
-    color:#4285F4;
+    color: #4285F4;
     font-size: 20px;
     text-decoration: none;
     font-weight: bold;
 
 }
 
-#imagenSpeed  img {
+#imagenSpeed img {
 
     display: flex;
     justify-content: flex-end;
@@ -207,7 +195,7 @@ p {
 }
 
 #teamsUsers {
- padding-top: 20px;
+    padding-top: 20px;
     background-color: white;
 }
 
@@ -236,9 +224,9 @@ p {
     height: 60px;
     margin-right: 5px;
     margin-left: 10px;
-    background-color:#540B51;
+    background-color: #540B51;
     border-radius: 5px;
-    
+
 }
 
 #botonesBotom .but1 span {
@@ -254,7 +242,7 @@ p {
     height: 60px;
     margin-right: 5px;
     margin-left: 10px;
-    background-color:white;
+    background-color: white;
     border-radius: 5px;
 }
 
@@ -266,10 +254,11 @@ p {
 }
 
 #teamsUsers li {
-    list-style-type:none;
+    list-style-type: none;
     padding-left: 0px;
 
 }
+
 #teamsUsers ul {
 
     margin-top: 50px;
@@ -287,13 +276,13 @@ p {
 #teamsUsers ul p {
 
     font-weight: bold;
-    
-    
+
+
 }
 
 #ultima {
     background-color: #540B51;
-    
+
 }
 
 
@@ -317,7 +306,7 @@ p {
     height: 60px;
     margin-right: 5px;
     margin-left: 10px;
-    background-color:#540B51;
+    background-color: #540B51;
     border-radius: 5px;
     border-color: white;
 }
@@ -325,7 +314,7 @@ p {
 #ultima .but1 span {
     color: white;
     font-size: 30px;
-    text-transform:uppercase;
+    text-transform: uppercase;
 }
 
 
@@ -335,7 +324,7 @@ p {
     height: 60px;
     margin-right: 5px;
     margin-left: 10px;
-    background-color:white;
+    background-color: white;
     border-radius: 5px;
     gap: 10px
 }
@@ -344,7 +333,7 @@ p {
     color: #540B51;
     font-size: 30px;
     text-transform: uppercase;
-    
+
 }
 
 footer {
