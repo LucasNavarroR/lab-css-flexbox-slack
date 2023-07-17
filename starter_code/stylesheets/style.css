@@ -84,7 +84,7 @@ header div p span {
 
 
 
-.botonesSignUp button {
+.botonera button {
     width: 95%;
     height: 60px;
     border-radius: 8px;
@@ -101,9 +101,7 @@ header div p span {
 
 #signUpEmail span {
     color: #540B51;
-    font-size: 20px;
-    font-weight: bold;
-    text-transform: uppercase;
+  
 }
 
 #signUpGoogle {
@@ -244,39 +242,31 @@ p {
     margin: 10px
 }
 
-#botonesBotom .but1 {
-    align-items: center;
-    width: 95%;
-    height: 60px;
-    margin-right: 5px;
-    margin-left: 10px;
-    background-color: #540B51;
-    border-radius: 5px;
-
+#but1 {
+    
+background-color: #540B51;
+    
 }
 
-#botonesBotom .but1 span {
+ #but1 span {
     color: white;
-    font-size: 30px;
-    text-transform: uppercase;
+  
 }
 
-
-#botonesBotom .but2 {
-    align-items: center;
-    width: 95%;
-    height: 60px;
-    margin-right: 5px;
-    margin-left: 10px;
+#but2 {
+   
+   
+  
+    
     background-color: white;
-    border-radius: 5px;
+    
 }
 
-#botonesBotom .but2 span {
+#but2 span {
     color: #540B51;
-    font-size: 30px;
-    text-transform: uppercase;
-    margin-bottom: 50px;
+    
+   
+   
 }
 
 #teamsUsers li {
